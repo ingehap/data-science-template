@@ -1,12 +1,12 @@
 {
-    "project_name": "project_name",
+    "project_name": "dst",
     "project_description": "A short description of the project.",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "conda_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '').replace('-', '') }}",
-    "mlops_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "mlops_compute_name": "cpu-compute",
-    "author": "Equinor ASA",
-    "open_source_license": ["Not open source", "MIT", "LGPL3", "GPL3"],
-    "devops_organisation": ""
+    "author": "Inge H. A. Pettersen",
+    "full_name": "Inge H. A. Pettersen",
+    "email": "ingehap@gmail.com",
+    "open_source_license": ["MIT"],
+    "year": "2013",
+    "version": "0.1"
 }
